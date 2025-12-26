@@ -3,12 +3,14 @@
 
 {
     "id": "1",
-    "text": "comprar comida"
+    "text": "comprar comida",
+    "status": "completed"
   },
 
   {
     "id": "2",
-    "text": "comprar mais comida e fralda"
+    "text": "comprar mais comida e fralda",
+     "status": "to do"
   }
 
 ]

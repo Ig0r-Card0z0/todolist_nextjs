@@ -44,7 +44,7 @@ export default  function Home() {
                     <TableCell>Acabou o rancho, precisa ir la para encher a dispensa</TableCell>
                     <TableCell>em andamento</TableCell>
 
-                    <TableCell className="text-right"><Button>Apagar</Button> <Button>Editar</Button></TableCell>
+                    <TableCell className="text-right"><Button >Apagar</Button> <Button>Editar</Button></TableCell>
                   </TableRow>
                 </TableBody>
               </Table>
