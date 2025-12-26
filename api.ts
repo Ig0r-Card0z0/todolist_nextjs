@@ -1,0 +1,10 @@
+
+import { ITask } from "./.next/types/tasks";
+const baseUrl = "http://localhost:3003";
+
+export const getAllTodos = async (): Promise<ITask[]> => {
+    const res = await fetch(`${baseUrl}/tasks`);
+    const todos  = await res.json();   
+    return todos;
+
+}
